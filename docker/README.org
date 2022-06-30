@@ -1,0 +1,21 @@
+* 使い方
+** GCP imageのインストール
+#+begin_src
+docker pull gcr.io/cloudsql-docker/gce-proxy:1.31.0
+#+end_src
+
+** コンテナの起動
+root dirで次を実行
+#+begin_src
+docker-compose -f ./docker-compose.yml up -d
+#+end_src
+
+** コンテナに入る
+#+begin_src
+docker exec -it crypto003 bash
+#+end_src
+
+** コンテナの停止
+#+begin_src
+docker stop crypto003
+#+end_src
