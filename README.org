@@ -65,5 +65,3 @@ from lib.mysql.setting import *
 https://github.com/YutaroOgawa/Deep-Reinforcement-Learning-Book
 
 https://github.com/richmanbtc/mlbot_tutorial
-
-https://github.com/im1235/ISAC
